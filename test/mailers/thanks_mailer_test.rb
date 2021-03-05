@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class NoticeMailerTest < ActionMailer::TestCase
+class ThanksMailerTest < ActionMailer::TestCase
   test "greeting" do
-    mail = NoticeMailer.greeting
+    mail = ThanksMailer.greeting
     assert_equal "Greeting", mail.subject
     assert_equal ["to@example.org"], mail.to
     assert_equal ["from@example.com"], mail.from

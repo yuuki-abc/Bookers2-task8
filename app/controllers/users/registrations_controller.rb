@@ -52,7 +52,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
 
   # The path used after sign up.
   def after_sign_up_path_for(resource)
-    NoticeMailer.greeting(@user).deliver_now
+    ThanksMailer.greeting(@user).deliver_now
     super(resource)
   end # 質問 この記述の意味についてよく考える
 
