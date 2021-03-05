@@ -3,4 +3,4 @@
 
 ## 使い方
 Bookers2にメール送信機能を追加しました。
-config/environments/developmentファイルの【:user_name =>】及び【:password =>】に正しい値をセットした場合、動作を確認して
+config/environments/developmentファイルの【:user_name =>】及び【:password =>】は.envで管理しています。
