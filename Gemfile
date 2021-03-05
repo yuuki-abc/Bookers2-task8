@@ -71,5 +71,6 @@ gem 'jquery-rails'
 gem 'font-awesome-sass', '~> 5.13'
 
 gem 'jp_prefecture'
+gem 'dotenv-rails'
 
 # 質問 ここでは、どの部分に書き込むかで扱いが変わるのか？

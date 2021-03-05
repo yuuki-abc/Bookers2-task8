@@ -48,8 +48,8 @@ Rails.application.configure do
     :port => '587',
     :domain => 'smtp.gmail.com',
     :authentication => 'plain',
-    :user_name => 'ここに正しいメールアドレスをセットすればメールが送信されます。',
-    :password => 'ここに正しいパスワードをセットすればメールが送信されます。'
+    :user_name => ENV['MY_GMAIL'],
+    :password => ENV['GOOGLE_APP_KYE']
   }
 
   # ここまで重要編集箇所

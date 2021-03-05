@@ -10,31 +10,56 @@ User.create!(name:  "山田太郎",
              email: "123@123.com",
              password:              "123123",
              password_confirmation: "123123",
-             introduction: "私は山田です。")
+             introduction: "私は山田です。",
+             postcode: 1234567,
+             prefecture_code: 123,
+             address_city: "123",
+             address_street: "123",
+             address_building: "123")
 
 User.create!(name:  "鈴木一郎",
-            email: "456@456.com",
-            password:              "123123",
-            password_confirmation: "123123",
-            introduction: "私は鈴木です。")
+             email: "456@456.com",
+             password:              "123123",
+             password_confirmation: "123123",
+             introduction: "私は鈴木です。",
+             postcode: 1234567,
+             prefecture_code: 123,
+             address_city: "123",
+             address_street: "123",
+             address_building: "123")
 
 User.create!(name:  "佐藤花子",
-            email: "789@789.com",
-            password:              "123123",
-            password_confirmation: "123123",
-            introduction: "私は佐藤です。")
+             email: "789@789.com",
+             password:              "123123",
+             password_confirmation: "123123",
+             introduction: "私は佐藤です。",
+             postcode: 1234567,
+             prefecture_code: 123,
+             address_city: "123",
+             address_street: "123",
+             address_building: "123")
 
 User.create!(name:  "村田剛",
-            email: "abc@abc.com",
-            password:              "123123",
-            password_confirmation: "123123",
-            introduction: "私は村田です。")
+             email: "abc@abc.com",
+             password:              "123123",
+             password_confirmation: "123123",
+             introduction: "私は村田です。",
+             postcode: 1234567,
+             prefecture_code: 123,
+             address_city: "123",
+             address_street: "123",
+             address_building: "123")
 
 User.create!(name:  "大野裕子",
-            email: "def@def.com",
-            password:              "123123",
-            password_confirmation: "123123",
-            introduction: "私は大野です。")
+             email: "def@def.com",
+             password:              "123123",
+             password_confirmation: "123123",
+             introduction: "私は大野です。",
+             postcode: 1234567,
+             prefecture_code: 123,
+             address_city: "123",
+             address_street: "123",
+             address_building: "123")
 
 Book.create!(title:  "楽しい絵本",
             body:  "楽しい絵本です",
